@@ -1,0 +1,150 @@
+body {
+    background:  #dc7633;
+    max-width: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background:  #f7dc6f ;
+    padding: 10px;
+    margin: 10px 10px 20px 0px;
+    font-size: 2rem;
+    display: flex;
+    align-items: end;
+    justify-content: space-evenly;
+    border-radius: 25px;
+}
+
+.jokebtn {
+    font-size: 1rem;
+    margin: 10px;
+}
+
+.jokebtn:hover {
+    background: gray;
+    box-shadow: 5px 5px black;
+    border-radius: 3px;
+}
+
+
+.category {
+    border-radius: 25px;
+    background: white;
+    padding: 5px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px gray;
+}
+
+
+.rows {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.list {
+    background: #C4A484;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.reviews {
+    background: #d35400;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.space {
+    margin-top: 10px;
+}
+
+.warning {
+    opacity: .5;
+    width: 300px;
+}
+
+.boldtext {
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+}
+
+a {
+    color: orangered;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #641e16;
+}
+
+.bottomPage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user {
+    padding: 10px;
+    border-radius: 25px;
+    background: orangered;
+    max-width: 20%;
+    margin: 10%;
+}
+
+.recent-listings {
+    background: #C4A484;
+    padding: 10px;
+    border-radius: 25px;
+    margin: 1%;
+    max-width: 40%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.top-headline {
+    font-weight: bold;
+    font-size: 3rem;
+    background: aquamarine;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.siteNews {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.mini-headline {
+    font-size: 1rem;
+}
+
+article {
+    padding: 10px;
+    background: aqua;
+    border-radius: 25px;
+    box-shadow: 3px 3px blue;
+}
+
+
+.about-us {
+    background: #C4A484;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    max-width: 500px;
+}
+
+
+.aboutsite {
+    opacity: .5;
+    text-align: center;
+}
+
+
